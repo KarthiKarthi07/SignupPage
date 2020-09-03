@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    width: 364px;
+    height: 93px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 73px;
+    letter-spacing: 0.11em;
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+
+.brief {
+    width: 506px;
+    height: 141px;
+    font-family: Roboto Slab;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.11em;
+    color: #000000;
+    margin-left: 10%;
+}
+
+.svg-one {
+    width: 608px;
+    height: 429px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.card {
+    width: 584px;
+    height: 755px;
+    background: #000000;
+    box-shadow: -2px 7px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    background: #FFFFFF;
+    position: absolute;
+    margin-left: 12%;
+}
+
+.form p {    
+    font-family: Zilla Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.11em;
+    color: #464646;
+}
+
+.form input {
+    width: 290px;
+    height: 28px;
+    background: #FDFDFD;
+    border: 1px solid #5E5E5E;
+    border-radius: 5px;
+}
+
+.form-fn {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin-left: 6%;
+}
+
+.form-e {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin-left: 6%;
+}
+
+.form-e p {
+    margin-left: 10%;
+}
+
+.form-dob {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin-left: 6%;
+}
+
+.form-dob p {
+    margin-left: 14%;
+}
+
+.form-dob input {
+    width: 111px;
+    height: 28px;
+}
+
+.form-m-p {
+    width: 282px;
+    height: 83px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #414141;
+    margin-top: 5%;
+
+}
+
+.form-fb {
+    display: flex;
+}
+
+.form-fb p {
+    width: 282px;
+    height: 83px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #fff;
+    margin-left: 2%;
+    margin-top: 12%;
+    z-index: 1;
+}
+
+.form-fb img {
+    width: 57px;
+    height: 57px;
+    margin-left: 5%;
+    margin-top: 12%;
+    z-index: 1;
+}
+
+.form-yt {
+    display: flex;
+}
+
+.form-yt p {
+    width: 282px;
+    height: 83px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #fff;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+.form-yt img {
+    width: 57px;
+    height: 57px;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.form-twt {
+    display: flex;
+}
+
+.form-twt p {
+    width: 282px;
+    height: 83px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #fff;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+.form-twt img {
+    width: 57px;
+    height: 57px;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.form-ins {
+    display: flex;
+}
+
+.form-ins p {
+    width: 282px;
+    height: 83px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #fff;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+.form-ins img {
+    width: 57px;
+    height: 57px;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.btn {
+    width: 134px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding-left: 30px;
+}
+
+.btn:hover {
+    background: #414141;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.svg-two {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
